@@ -1,4 +1,6 @@
 import React from 'react';
+import MapContainer from './MapContainer'
+import "../App.css"
 
 const HikeLog = (props) => {
 
@@ -6,6 +8,9 @@ const HikeLog = (props) => {
     <div>
       {console.log(props.user)}
       Welcome {props.user.name}, you're on the "HikeLog" page
+      <div id="map-container">
+        <MapContainer />
+      </div>
     </div>
   )
 }

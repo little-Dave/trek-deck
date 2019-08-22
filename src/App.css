@@ -1,0 +1,10 @@
+#tile-container {
+  height: 85vh;
+  background-color: #f4f4f2;
+  float: right;
+  width: 50%;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  border-radius: 1rem;
+}
+

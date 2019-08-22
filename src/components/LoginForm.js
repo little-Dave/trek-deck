@@ -30,8 +30,8 @@ class LoginForm extends Component {
     return (
       <div>
         <form>
-          <input type="text" name="username" placeholder="Hiker Handle" />
-          <input type="submit" value="Login" onClick={this.handleClick} />
+          <input id="username-input" type="text" name="username" placeholder="username" />
+          <button id="login-button" type="submit"  onClick={this.handleClick}>Login</button>
         </form>
       </div>
     )

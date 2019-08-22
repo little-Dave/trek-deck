@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PlacesAutocomplete, { geocodeByAddress, getLatLng } from 'react-places-autocomplete';
-
+import "../App.css"
 
 export default class LocationForm extends Component {
   constructor(props){
@@ -51,11 +51,12 @@ export default class LocationForm extends Component {
             <input
               {...getInputProps ({
                 placeholder: "Type a location ...",
-                className: "location-search-input"
+                className: "location-search-input",
+                // id: "location-form"
               })}
             />
             <div className="autocomplete-dropdown-container" >
-              {loading && <div>Loading...</div>}
+              {loading}
               {suggestions.map(suggestion => {
                 const className = suggestion.active
                   ? "suggestion-item--active"

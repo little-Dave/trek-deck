@@ -4,7 +4,8 @@ import { Map, GoogleApiWrapper } from 'google-maps-react';
 const mapStyles = {
   width: "66%",
   height: "85%",
-  margin: "2rem",
+  marginLeft: "2rem",
+  marginTop: ".5rem",
   borderRadius: "1rem"
 };
 

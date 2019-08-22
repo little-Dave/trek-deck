@@ -9,15 +9,34 @@ const mapStyles = {
 };
 
 export class MapContainer extends Component {
+  state = {
+    latitude: this.props.latitude,
+    longitude: this.props.longitude,
+    zoom: 4
+  }
+
   render() {
+    if (this.props.latitude !== this.state.latitude) {
+      this.setState({
+        latitude: this.props.latitude,
+        longitude: this.props.longitude, 
+        zoom: 12
+      })
+    }
+    // console.log(this.props)
+    // console.log(this.state)
     return(
       <Map
         google={this.props.google}
-        zoom={14}
+        zoom={this.state.zoom}
         style={mapStyles}
         initialCenter={{
-          lat: 39.7393,
-          lng: -104.9848
+          lat: this.state.latitude,
+          lng: this.state.longitude
+        }}
+        center={{
+          lat: this.state.latitude,
+          lng: this.state.longitude
         }}
       />
     )

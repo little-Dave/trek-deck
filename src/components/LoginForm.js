@@ -16,6 +16,7 @@ class LoginForm extends Component {
     let username = event.target.parentNode.username.value
     fetch(baseUserUrl.concat(username))
       .then(response => response.json())
+      // .then(response => console.log(response))
       .then(this.props.getUser)
       .then(this.setState({
         inHikeLog: true

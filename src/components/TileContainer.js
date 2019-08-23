@@ -4,28 +4,20 @@ import '../App.css';
 
 const TileContainer = (props) => {
   
-
     function listHikes(props) {
       if (props.hikes) {
         return props.hikes.map(hike =>
-          <TileComponent hike={hike} />
+          <TileComponent getUser={props.getUser} username={props.username} hike={hike} />
         )
       }
     }
   
-
-    console.log(props.hikes)
+    // console.log(props)
   
   return(
     <div id="tile-container">
       <ul>
         {listHikes(props)}
-        {/* <li>
-          <div className="list-item">Red Rocks, CO</div>
-        </li>
-        <li>
-          <div className="list-item">Sleeping Bear Dunes, MI</div>
-        </li> */}
       </ul>
     </div>
   )

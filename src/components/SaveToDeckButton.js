@@ -30,7 +30,7 @@ const SaveToDeckButton = (props) => {
   }
   // console.log(props)
   return(
-    <button onClick={clickHandler} id="save-to-deck-button" name="save-hike"><strong>SAVE TO DECK</strong></button>
+    <button onClick={clickHandler} id="save-to-deck-button" name="save-hike"><strong>Add to Deck</strong></button>
   )
 }
 

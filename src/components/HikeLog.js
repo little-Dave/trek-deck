@@ -3,6 +3,7 @@ import MapContainer from './MapContainer'
 import LocationForm from './LocationForm'
 import TileContainer from './TileContainer'
 import SaveToDeckButton from './SaveToDeckButton'
+import Navbar from './Navbar'
 import "../App.css"
 
 const HikeLog = (props) => {
@@ -10,7 +11,8 @@ const HikeLog = (props) => {
   return(
     <div>
       {console.log(props)}
-      Hi {props.user.name}!
+      {/* Hi {props.user.name}! */}
+      <Navbar />
       <LocationForm getCurrentLocationInfo={props.getCurrentLocationInfo}/>
       <SaveToDeckButton 
         userId={props.user.id} 
@@ -21,7 +23,7 @@ const HikeLog = (props) => {
         getUser={props.getUser}
       />
       <MapContainer latitude={props.currentLocation.latitude} longitude={props.currentLocation.longitude}/>
-      <TileContainer hikes={props.user.hikes}/>
+      <TileContainer username={props.user.username} getUser={props.getUser} hikes={props.user.hikes}/>
     </div>
   )
 }

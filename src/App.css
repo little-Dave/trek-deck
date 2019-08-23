@@ -1,13 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700,900|Unica+One&display=swap');
 
 #tile-container {
-  height: 84.5vh;
+  height: 83vh;
   background-color: #f4f4f2;
   float: right;
   width: 27%;
   margin-top: .5rem;
   margin-right: 2rem;
   border-radius: 1rem;
+  padding-top: 1rem;
+}
+
+#save-to-deck-button {
+  width: 26.6%;
+  float: right;
+  height: 2rem;
+  top: 3.6rem;
+  right: 2.5rem;
+  border-radius: .5rem;
+  position: absolute;
+  font-size: 1.25rem;
+  background-color: #F4C14F;
+  color: white;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  padding-top: .25rem;
+  outline: 0; 
 }
 
 .location-search-input {
@@ -37,7 +56,7 @@
   text-align: center;
   width: 24%;
   height: 10rem;
-  margin-top: 12rem;
+  margin-top: 11rem;
   position: absolute;
   margin-left: 38%;
   border-radius: 1rem;
@@ -68,9 +87,30 @@
 }
 
 h1 {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-family: "Unica One", cursive;
   font-size: 3rem;
-  margin-bottom: 0rem;
+  margin-bottom: .5rem;
 }
 
+.list-item {
+  height: 3rem;
+  width: 88%;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+  padding-top: 1.25rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #9FA09F;
+  box-shadow: 2px 2px 8px #9FA09F;
+}
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}

@@ -50,6 +50,7 @@ export default class App extends Component {
                   user={this.state.user} 
                   currentLocation={this.state.currentLocation} 
                   getCurrentLocationInfo={this.getCurrentLocationInfo}
+                  getUser={this.getUser}
               />
             } 
           />

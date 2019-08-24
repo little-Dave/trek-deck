@@ -1,6 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# README
 
-## Available Scripts
+**Trek Deck** is a way to document hikes you've been on, trips you've taken, mountains you've conquered; it utilizes Google's Maps, Places and Geocoding APIs. Search for a location, view it on the Gmap and save it to your Deck.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 

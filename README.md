@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![](trekDeck.gif)
 
-**Run the app**
+**Run the app**<br>
 In the project directory, you can run:<br>
  `npm install` <br>
  `npm start`
@@ -16,7 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
-<br><br>
+<br>
+------------------------------------------------------------------------------------------------------------------------------
+<br>
 - Shout out to the peeps behind https://fonts.google.com/ (**Trek Deck** uses Roboto and Unica One) & https://fontawesome.com/?from=io (exit and trash icons). 
 - **Trek Deck** makes use of two npm packages, [google-maps-react](https://www.npmjs.com/package/google-maps-react) and [react-places-autocomplete](https://www.npmjs.com/package/react-places-autocomplete)
 

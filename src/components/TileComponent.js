@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 
 const TileComponent = (props) => {
-  console.log(props)
+  // console.log(props)
 
   const baseUserUrl = "http://localhost:3001/users/"
   const baseHikeUrl = "http://localhost:3001/hikes/"
@@ -30,8 +30,7 @@ const TileComponent = (props) => {
   return(
     <div  
       id={props.hike.id} 
-      className="list-item"
-      onClick={() => console.log("WHAT!")}
+      className="list-item"  
     >
       {props.hike.name}
       <span 

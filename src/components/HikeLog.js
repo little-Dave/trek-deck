@@ -10,9 +10,9 @@ const HikeLog = (props) => {
 
   return(
     <div>
-      {console.log(props)}
+      {/* {console.log(props)} */}
       {/* Hi {props.user.name}! */}
-      <Navbar />
+      <Navbar name={props.user.name}/>
       <LocationForm getCurrentLocationInfo={props.getCurrentLocationInfo}/>
       <SaveToDeckButton 
         userId={props.user.id} 

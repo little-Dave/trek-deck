@@ -54,7 +54,6 @@ export default class App extends Component {
               />
             } 
           />
-          {/* above, update currentLocation to include other info you'd like to persist */}
         </React.Fragment>
       </Router>
     )

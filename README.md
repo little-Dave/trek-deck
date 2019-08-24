@@ -23,11 +23,8 @@ You will also see any lint errors in the console.
 - **Trek Deck** makes use of two npm packages, [google-maps-react](https://www.npmjs.com/package/google-maps-react) and [react-places-autocomplete](https://www.npmjs.com/package/react-places-autocomplete)
 - You'll need a Google API Key to use the app. Head [here](https://developers.google.com/maps/documentation/javascript/get-api-key) if you don't already have one.
 
-
-Thanks for stopping by :thumbsup: 
-
-
 **Learn More**<br>
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+Thanks for stopping by :thumbsup: 

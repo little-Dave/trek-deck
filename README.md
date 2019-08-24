@@ -6,11 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![](trekDeck.gif)
 
+**Run the app**
 In the project directory, you can run:<br>
  `npm install` <br>
  `npm start`
 
-**Run the app**
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 

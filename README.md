@@ -20,12 +20,10 @@ You will also see any lint errors in the console.
 <br>
 <br>
 - Shout out to the peeps behind [Google Fonts](https://fonts.google.com/) (**Trek Deck** uses Roboto and Unica One) & [Font Awesome](https://fontawesome.com/?from=io) (exit and trash icons). 
-<br>
 - **Trek Deck** makes use of two npm packages, [google-maps-react](https://www.npmjs.com/package/google-maps-react) and [react-places-autocomplete](https://www.npmjs.com/package/react-places-autocomplete)
-<br>
 - You'll need a Google API Key to use the app. Head [here](https://developers.google.com/maps/documentation/javascript/get-api-key) if you don't already have one.
 <br>
-
+<br>
 Thanks for stopping by :thumbsup: 
 <br><br><br>
 **Learn More**<br>
